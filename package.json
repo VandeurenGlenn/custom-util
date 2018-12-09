@@ -1,0 +1,33 @@
+{
+  "name": "custom-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test+.js",
+    "compile": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vandeurenglenn/custom-utils.git"
+  },
+  "keywords": [
+    "custom-element",
+    "util"
+  ],
+  "author": "Glenn Vandeuren <vandeurenglenn@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vandeurenglenn/custom-utils/issues"
+  },
+  "homepage": "https://github.com/vandeurenglenn/custom-utils#readme",
+  "dependencies": {
+    "glob": "^7.1.3"
+  },
+  "devDependencies": {
+    "rollup": "^0.67.4",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "tape": "^4.9.1"
+  }
+}
