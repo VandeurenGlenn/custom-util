@@ -1,5 +1,5 @@
 {
-  "name": "custom-utils",
+  "name": "custom-util",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vandeurenglenn/custom-utils.git"
+    "url": "git+https://github.com/vandeurenglenn/custom-util.git"
   },
   "keywords": [
     "custom-element",
@@ -18,12 +18,9 @@
   "author": "Glenn Vandeuren <vandeurenglenn@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vandeurenglenn/custom-utils/issues"
+    "url": "https://github.com/vandeurenglenn/custom-util/issues"
   },
-  "homepage": "https://github.com/vandeurenglenn/custom-utils#readme",
-  "dependencies": {
-    "glob": "^7.1.3"
-  },
+  "homepage": "https://github.com/vandeurenglenn/custom-util#readme",
   "devDependencies": {
     "rollup": "^0.67.4",
     "rollup-plugin-commonjs": "^9.2.0",

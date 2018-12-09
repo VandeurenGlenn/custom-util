@@ -1,19 +1,19 @@
-# custom-utils
+# custom-util
 
 ## Install
 
 ```sh
-npm install custom-utils --save
+npm install custom-util --save
 ```
 or
 ```sh
-yarn add custom-utils
+yarn add custom-util
 ```
 
 ## Usage
 
 ```ts
-import { hyphenate } from 'custom-utils';
+import { hyphenate } from 'custom-util';
 
 hyphenate('SomeElement') // 'some-element'
 ```
