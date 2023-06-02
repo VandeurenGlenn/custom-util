@@ -3,9 +3,51 @@
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "types": "./types/index.d.ts"
+    },
+    "./constants.js": {
+      "import": "./lib/constants.js",
+      "types": "./types/lib/constants.d.ts"
+    },
+    "./hyphenate.js": {
+      "import": "./lib/hyphenate.js",
+      "types": "./types/lib/hyphenate.d.ts"
+    },
+    "./ltrim": {
+      "import": "./lib/ltrim.js",
+      "types": "./types/lib/ltrim.d.ts"
+    },
+    "./remove-non-word.js": {
+      "import": "./lib/remove-non-word.js",
+      "types": "./types/lib/remove-non-word.d.ts"
+    },
+    "./replace-accents.js": {
+      "import": "./lib/replace-accents.js",
+      "types": "./types/lib/replace-accents.d.ts"
+    },
+    "./rtrim-accents.js": {
+      "import": "./lib/rtrim-accents.js",
+      "types": "./types/lib/rtrim-accents.d.ts"
+    },
+    "./slugify.js": {
+      "import": "./lib/slugify.js",
+      "types": "./types/lib/slugify.d.ts"
+    },
+    "./trim.js": {
+      "import": "./lib/trim.js",
+      "types": "./types/lib/trim.d.ts"
+    },
+    "./un-camel-case.js": {
+      "import": "./lib/un-camel-case.js",
+      "types": "./types/lib/un-camel-case.d.ts"
+    }
+  },
   "scripts": {
-    "test": "node test+.js",
-    "compile": "rollup -c"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -22,9 +64,6 @@
   },
   "homepage": "https://github.com/vandeurenglenn/custom-util#readme",
   "devDependencies": {
-    "rollup": "^0.67.4",
-    "rollup-plugin-commonjs": "^9.2.0",
-    "rollup-plugin-node-resolve": "^4.0.0",
     "tape": "^4.9.1"
   }
 }
